@@ -122,6 +122,21 @@ footer p { text-align: right; }
 footer p a { color: var(--gold-light); text-decoration: none; }
 footer p span { margin-top: 3px; }
 
+/* Páginas de conteúdo jurídico */
+.legal-article { padding: clamp(70px,8vw,110px) max(clamp(22px,7vw,108px),calc((100vw - 1180px)/2)); background: var(--paper); }
+.back-link { display: inline-block; margin-bottom: 46px; color: #705426; font-weight: 700; text-decoration: none; }
+.legal-article > h1 { max-width: 900px; margin-bottom: 25px; color: var(--navy); font-size: clamp(2.7rem,6vw,5rem); }
+.article-lead { max-width: 850px; margin: 0 0 60px; color: var(--muted); font-size: clamp(1.1rem,2vw,1.35rem); }
+.article-body { max-width: 850px; padding: clamp(28px,5vw,58px); background: white; border: 1px solid var(--line); box-shadow: 0 22px 60px rgba(7,22,43,.07); }
+.article-body h2 { margin: 42px 0 14px; color: var(--navy); font-size: clamp(1.55rem,3vw,2.15rem); }
+.article-body h2:first-child { margin-top: 0; }
+.article-body p, .article-body li { color: var(--muted); }
+.article-body li + li { margin-top: 8px; }
+.legal-note { margin-top: 40px; padding: 18px 20px; border-left: 3px solid var(--gold); background: #f6f1e7; color: #5d564b; font-size: .92rem; }
+.article-cta { max-width: 850px; margin-top: 26px; padding: clamp(28px,5vw,52px); background: linear-gradient(120deg,var(--navy),#102b4c); color: white; }
+.article-cta h2 { margin-bottom: 12px; font-family: Georgia,serif; font-size: clamp(1.7rem,3vw,2.5rem); font-weight: 500; }
+.article-cta p { margin: 0 0 25px; color: #c8d1dd; }
+
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
   .hero { min-height: auto; }
@@ -151,6 +166,9 @@ footer p span { margin-top: 3px; }
   .form-row { grid-template-columns: 1fr; gap: 0; }
   .floating-socials { right: 14px; bottom: 14px; }
   .social-float { width: 48px; height: 48px; }
+  .legal-article { padding: 58px 20px; }
+  .back-link { margin-bottom: 34px; }
+  .article-body, .article-cta { padding: 25px 21px; }
   footer { align-items: flex-start; flex-direction: column; padding: 28px 20px; }
   footer p { text-align: left; }
 }
