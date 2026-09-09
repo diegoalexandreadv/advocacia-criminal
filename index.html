@@ -14,7 +14,7 @@
       <span class="monogram" aria-hidden="true">DA</span>
       <span><strong>Diego Alexandre</strong><small>OAB/MA 31.085</small></span>
     </a>
-    <a class="nav-contact" href="https://www.instagram.com/diegoalexandreadv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Diego Alexandre">Instagram · @diegoalexandreadv</a>
+    <nav class="main-nav" aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#atuacao">Atuação</a><a href="#duvidas">Dúvidas</a><a class="nav-contact" href="#contato">Contato</a></nav>
   </header>
 
   <aside class="urgent-strip" aria-label="Atendimento em situações urgentes">
@@ -95,11 +95,6 @@
       </div>
     </section>
 
-    <section class="instagram-section">
-      <p class="eyebrow light">Conteúdo nas redes sociais</p><h2>Acompanhe informações jurídicas no Instagram.</h2><p>Publicações de caráter informativo sobre Direito Criminal e temas relacionados à atuação profissional.</p>
-      <a class="button social-button" href="https://www.instagram.com/diegoalexandreadv/" target="_blank" rel="noopener noreferrer">Seguir @diegoalexandreadv</a>
-    </section>
-
     <section class="approach">
       <div>
         <p class="eyebrow light">Atuação profissional</p>
@@ -109,22 +104,22 @@
     </section>
 
     <section class="contact" id="contato">
-      <p class="eyebrow">Contato</p>
-      <h2>Solicite informações sobre o atendimento jurídico.</h2>
-      <p>Envie uma mensagem para apresentar brevemente a situação e verificar a disponibilidade de atendimento.</p>
-      <div class="contact-actions">
-        <a class="button primary" href="https://wa.me/5598984079574?text=Ol%C3%A1%2C%20Dr.%20Diego.%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer">Entrar em contato pelo WhatsApp</a>
-        <a class="email-link" href="mailto:diegoalexandree.adv@gmail.com">diegoalexandree.adv@gmail.com</a>
-        <a class="instagram-link" href="https://www.instagram.com/diegoalexandreadv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Diego Alexandre">Instagram · @diegoalexandreadv</a>
-      </div>
-      <small>O envio da mensagem não estabelece, por si só, relação advogado-cliente. Não compartilhe documentos ou informações sensíveis antes da confirmação do atendimento.</small>
+      <div class="contact-copy"><p class="eyebrow">Contato</p><h2>Apresente brevemente a situação.</h2><p>Preencha os campos ao lado. Ao enviar, a mensagem será preparada no WhatsApp para você revisar antes do envio.</p><div class="contact-data"><span><small>WhatsApp</small><strong>(98) 98407-9574</strong></span><span><small>E-mail</small><a href="mailto:diegoalexandree.adv@gmail.com">diegoalexandree.adv@gmail.com</a></span><span><small>Localidade</small><strong>São Luís · Maranhão</strong></span></div></div>
+      <form class="contact-form" id="contact-form">
+        <div class="field"><label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required placeholder="Como podemos chamar você?"></div>
+        <div class="form-row"><div class="field"><label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" autocomplete="tel" required placeholder="(98) 99999-9999"></div><div class="field"><label for="assunto">Assunto</label><select id="assunto" name="assunto" required><option value="">Selecione</option><option>Prisão preventiva</option><option>Audiência de custódia</option><option>Tráfico de drogas</option><option>Restituição de bem apreendido</option><option>Outro assunto</option></select></div></div>
+        <div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva somente as informações iniciais, sem anexar documentos sensíveis."></textarea></div>
+        <button class="button primary" type="submit">Continuar no WhatsApp</button>
+        <small>O contato não estabelece, por si só, relação advogado-cliente. Revise a mensagem antes de enviá-la.</small>
+      </form>
     </section>
   </main>
 
   <footer>
     <div><strong>Diego Alexandre</strong><span>Advogado · OAB/MA 31.085</span></div>
-    <p><a href="mailto:diegoalexandree.adv@gmail.com">diegoalexandree.adv@gmail.com</a><a class="footer-instagram" href="https://www.instagram.com/diegoalexandreadv/" target="_blank" rel="noopener noreferrer">@diegoalexandreadv</a><span>São Luís — Maranhão</span></p>
+    <p><a href="mailto:diegoalexandree.adv@gmail.com">diegoalexandree.adv@gmail.com</a><span>São Luís — Maranhão</span></p>
   </footer>
-  <a class="whatsapp-float" href="https://wa.me/5598984079574?text=Ol%C3%A1%2C%20Dr.%20Diego.%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer" aria-label="Falar com Diego Alexandre pelo WhatsApp"><span aria-hidden="true">WA</span><strong>WhatsApp</strong></a>
+  <div class="floating-socials" aria-label="Canais de contato"><a class="social-float instagram-float" href="https://www.instagram.com/diegoalexandreadv/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Diego Alexandre na rede social"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="dot" cx="17.5" cy="6.5" r="1"/></svg></a><a class="social-float whatsapp-float" href="https://wa.me/5598984079574?text=Ol%C3%A1%2C%20Dr.%20Diego.%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z"/><path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.8 1.9c.1.3 0 .5-.2.7l-.6.7c.9 1.7 2.1 2.8 3.8 3.5l.6-.8c.2-.3.5-.3.8-.2l1.8.9c.3.1.4.3.4.6 0 .5-.3 1.4-.8 1.7-.6.4-1.4.6-2.1.4-3.2-.8-6.3-3.7-7.3-6.8-.3-.9.2-2 .6-2.6Z"/></svg></a></div>
+  <script src="script.js"></script>
 </body>
 </html>
